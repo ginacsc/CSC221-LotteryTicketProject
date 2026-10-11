@@ -1,3 +1,4 @@
+//This program generates a random six digit lottery ticket number.
 #include <iostream>
 #include <random>
 #include <string>
@@ -43,6 +44,10 @@ int main() {
     cout << string5 << endl;
     cout << string6 << endl;
 
+    string ticketNumber = to_string(num1) + to_string(num2) + to_string(num3) + to_string(num4) +
+        to_string(num5) + to_string(num6);
+
+    cout << "The winning lottery ticket number is: " << ticketNumber << endl;
 
     return 0;
 }
