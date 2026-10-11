@@ -1,5 +1,6 @@
 #include <iostream>
 #include <random>
+#include <string>
 using namespace std;
 
 int main() {
@@ -19,6 +20,20 @@ int main() {
     cout << number4(engine) << endl;
     cout << number5(engine) << endl;
     cout << number6(engine) << endl;
+
+    string string1 = to_string(number1(engine));
+    string string2 = to_string(number2(engine));
+    string string3 = to_string(number3(engine));
+    string string4 = to_string(number4(engine));
+    string string5 = to_string(number5(engine));
+    string string6 = to_string(number6(engine));
+
+    cout << string1 << endl;
+    cout << string2 << endl;
+    cout << string3 << endl;
+    cout << string4 << endl;
+    cout << string5 << endl;
+    cout << string6 << endl;
 
 
     return 0;
